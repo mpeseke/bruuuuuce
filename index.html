@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+        <title>Bruce Springsteen</title>
+
+        <body>
+            <main>
+                <header>
+                    <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Active</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                  </ul>
+
+                  <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                      <h1 class="display-4">Fluid jumbotron</h1>
+                      <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                    </div>
+                  </div>
+                </header>
+
+                <section>
+                    
+                    <div class="container">
+                        <h2>The 70s</h2>
+                        <div class="row">
+                           
+                            <!--Greetings from Asbury Park, N.J. Card-->
+                            <div class="col-sm">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="assets/greetings.jpg" class="card-img-top" alt="Greetings from Asbury Park, N.J. album art">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Greetings From Asbury Park, N.J.</h5>
+                                        <button class="btn btn-primary" data-toggle="modal" data-target="#greetingsModal">Album Information</button>
+                                    </div>
+                                </div>
+                            </div><!--end card-->
+
+                            <!-- Greetings from Asbury Park, N.J. Modal -->
+                            <div class="modal fade" id="greetingsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-xl">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Greetings From Asbury Park, N.J. - 1973</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+
+
+                                    <div class="modal-body">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-md">
+
+                                                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/7Iaca30QbOo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    
+                                                </div>
+                                                <div class="col-md">
+                                                    <ol>
+                                                        <li>Blinded by the Light</li>
+                                                        <li>Growin' Up</li>
+                                                        <li>Mary Queen of Arkansas</li>
+                                                        <li>Does This Bus Stop at 82nd Street?</li>
+                                                        <li>Lost in the Flood</li>
+                                                        <li>The Angel</li>
+                                                        <li>For You</li>
+                                                        <li>Spirit in the Night</li>
+                                                        <li>It's Hard to Be a Saint in the City</li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div><!--modal end-->
+
+                             <!--The Wild, the Innocent, And the E Street Shuffle Card-->
+                             <div class="col-sm">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="assets/thewildtheinnocent.jpg" class="card-img-top" alt="Greetings from Asbury Park, N.J. album art">
+                                    <div class="card-body">
+                                        <h5 class="card-title">The Wild, The Innocent, and The E Street Shuffle</h5>
+                                        <button class="btn btn-primary" data-toggle="modal" data-target="#wildInnocentModal">Album Information</button>
+                                    </div>
+                                </div>
+                            </div><!--end card-->
+
+                            <!-- The Wild, the Innocent, And the E Street Shuffle  Modal -->
+                            <div class="modal fade" id="wildInnocentModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-xl">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">The Wild, The Innocent, and The E Street Shuffle - 1973</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+
+
+                                    <div class="modal-body">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-md">
+                                                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/CYHGh6lmSbo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                </div>
+                                                <div class="col-md">
+                                                    <ol>
+                                                        <li>The E Street Shuffle</li>
+                                                        <li>4th of July, Asbury Park (Sandy)</li>
+                                                        <li>Kitty's Back</li>
+                                                        <li>Wild Billy's Circus Story</li>
+                                                        <li>Incident on 57th Street</li>
+                                                        <li>Rosalita (Come Out Tonight)</li>
+                                                        <li>New York City Serenade</li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div><!--modal end-->
+
+                            <!--Born to Run Card-->
+                            <div class="col-sm">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="assets/bornToRun.jpg" class="card-img-top" alt="Greetings from Asbury Park, N.J. album art">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Born to Run</h5>
+                                        <button class="btn btn-primary" data-toggle="modal" data-target="#bornToRunModal">Album Information</button>
+                                    </div>
+                                </div>
+                            </div><!--end card-->
+
+                            <!-- Born to Run Modal -->
+                            <div class="modal fade" id="bornToRunModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-xl">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Born To Run - 1975</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+
+
+                                    <div class="modal-body">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-md">
+                                                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/IxuThNgl3YA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                </div>
+                                                <div class="col-md">
+                                                    <ol>
+                                                        <li>Thunder Road</li>
+                                                        <li>Tenth Avenue Freeze-Out</li>
+                                                        <li>Night</li>
+                                                        <li>Backstreets</li>
+                                                        <li>Born to Run</li>
+                                                        <li>She's the One</li>
+                                                        <li>Meeting Across the River</li>
+                                                        <li>Jungleland</li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div><!--modal end-->
+
+                            <!--Darkness On The Edge Of Town Card-->
+                            <div class="col-sm">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="assets/darkness.jpg" class="card-img-top" alt="Greetings from Asbury Park, N.J. album art">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Darkness On The Edge Of Town</h5>
+                                        <button class="btn btn-primary" data-toggle="modal" data-target="#darknessModal">Album Information</button>
+                                    </div>
+                                </div>
+                            </div><!--end card-->
+
+                            <!-- Darkness On The Edge Of Town Modal -->
+                            <div class="modal fade" id="darknessModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-xl">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Darkness On The Edge Of Town - 1978</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+
+
+                                    <div class="modal-body">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-md">
+                                                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/K8UjZczqJ7I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                </div>
+                                                <div class="col-md">
+                                                    <ol>
+                                                        <li>Badlands</li>
+                                                        <li>Adam Raised a Cain</li>
+                                                        <li>Something in the Night</li>
+                                                        <li>Candy's Room</li>
+                                                        <li>Racing in the Street</li>
+                                                        <li>The Promised Land</li>
+                                                        <li>Factory</li>
+                                                        <li>Streets of Fire</li>
+                                                        <li>Prove It All Night</li>
+                                                        <li>Darkness on the Edge of Town</li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div><!--modal end-->
+                        </div><!--row-->
+
+                        <h2>The 80s</h2>
+                        <div class="row">
+
+
+                            <!--The River Card-->
+                            <div class="col-sm">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="assets/river.jpg" class="card-img-top" alt="Greetings from Asbury Park, N.J. album art">
+                                    <div class="card-body">
+                                        <h5 class="card-title">The River</h5>
+                                        <button class="btn btn-primary" data-toggle="modal" data-target="#riverModal">Album Information</button>
+                                    </div>
+                                </div>
+                            </div><!--end card-->
+
+                            <!--The River Modal -->
+                            <div class="modal fade" id="riverModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-xl">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">The River - 1980</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+
+
+                                    <div class="modal-body">
+                                        <div class="container-fluid">
+                                            <div class="row">
+                                                <div class="col-md">
+                                                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/lc6F47Z6PI4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                </div>
+                                                <div class="col-md">
+                                                    <ol>
+                                                        <li>The Ties That Bind</li>
+                                                        <li>Sherry Darling</li>
+                                                        <li>Jackson Cage</li>
+                                                        <li>Two Hearts</li>
+                                                        <li>Independence Day</li>
+                                                        <li>Hungry Heart</li>
+                                                        <li>Out In the Street</li>
+                                                        <li>Crush On You</li>
+                                                        <li>You Can Look (But You Better Not Touch)</li>
+                                                        <li>I Wanna Marry You</li>
+                                                        <li>The River</li>
+                                                        <li>Point Blank</li>
+                                                        <li>Cadillac Ranch</li>
+                                                        <li>I'm a Rocker</li>
+                                                        <li>Fade Away</li>
+                                                        <li>Stolen Car</li>
+                                                        <li>Ramrod</li>
+                                                        <li>The Price You Pay</li>
+                                                        <li>Drive All Night</li>
+                                                        <li>Wreck On The Highway</li>
+                                                    </ol>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </div><!--modal end-->
+
+
+                            
+                        </div>
+                      </div><!--container-->
+
+
+                </section>
+
+            </main>
+        </body>
+
+
+    </head>
+</html>
